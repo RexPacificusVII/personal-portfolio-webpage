@@ -6,6 +6,41 @@
 #navbar {
     top: 0;
     position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 3em;
+}
+
+#navbar-logo img {
+    width: 50px;
+    border: 1px solid #00ffda;
+}
+
+#navbar-list-group {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+
+#navbar-list > ul {
+    display: flex;
+    gap: 2em;
+}
+
+#navbar-list > ul > li {
+    list-style: none;
+}
+
+.top-bottom-text {
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+#resume {
+    padding: 0.50em 1.5em;
+    border: 1px solid #00ffda;
 }
 
 #slides-container {
@@ -23,6 +58,11 @@
 }
 
 #footer {
+    width: 100%;
     bottom: 0;
     position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5em 3em;
 }
