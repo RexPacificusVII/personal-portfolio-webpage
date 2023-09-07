@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#top-nav-bar {
+    top: 0;
+    position: fixed;
+}
+
+#slides-container {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.slides {
+    height: 100%;
+    scroll-snap-align: start none;
+}
+
+#footer {
+    bottom: 0;
+    position: fixed;
+}
