@@ -4,33 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frederick James Bunal</title>
+    <!-- BOXICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <header id="navbar">
         <div id="navbar-logo">
-            <img src="./assets/hexagon.svg">
+            <svg fill="#000000" height="50px" width="50px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve"><path d="M485.291,129.408l-224-128c-3.285-1.877-7.296-1.877-10.581,0l-224,128c-3.328,1.899-5.376,5.44-5.376,9.259v234.667c0,3.819,2.048,7.36,5.376,9.259l224,128c1.643,0.939,3.456,1.408,5.291,1.408c1.835,0,3.648-0.469,5.291-1.408l224-128c3.328-1.899,5.376-5.44,5.376-9.259V138.667C490.667,134.848,488.619,131.307,485.291,129.408z M469.333,367.147L256,489.045L42.667,367.147V144.853L256,22.955l213.333,121.899V367.147z"/></svg>
+            <h1>FJ</h1>
         </div>
         <div id="navbar-list-group">
             <div id="navbar-list">
                 <ul>
-                    <li class="top-bottom-text"><a href="#slide1">home</a></li>
-                    <li class="top-bottom-text"><a href="#slide2">about</a></li>
-                    <li class="top-bottom-text"><a href="#slide3">work</a></li>
-                    <li class="top-bottom-text"><a href="#slide4">contact</a></li>
+                    <li class="top-bottom-text"><a href="#home">home</a></li>
+                    <li class="top-bottom-text"><a href="#about">about</a></li>
+                    <li class="top-bottom-text"><a href="#work">work</a></li>
+                    <li class="top-bottom-text"><a href="#contact">contact</a></li>
                 </ul>
             </div>
             <div id="resume" class="top-bottom-text">RESUME</div>
         </div>
     </header>
-    <aside id="side-navbar-social"></aside>
-    <aside id="side-navbar-email"></aside>
+    <aside id="side-navbar-social">
+        <div class="vline"></div>
+        <a href="https://github.com/RexPacificusVII"><i class='bx bxl-github' undefined ></i></a>
+        <a href="https://www.linkedin.com/in/bunalfrederickjames/"><i class='bx bxl-linkedin-square' ></i></a>
+        <div class="vline"></div>
+    </aside>
+    <aside id="side-navbar-email">
+        <div class="vline"></div>
+        <div id="rotated-text"><a href="mailto:bunal.frederickjames@pm.me"><p class="rotate">bunal.frederickjames@pm.me</p></a></div>
+        <div class="vline"></div>
+    </aside>
     <main id="main-content">
         <div id="slides-container">
-            <div id="slide1" class="slides">Homepage</div>
-            <div id="slide2" class="slides">About Me</div>
-            <div id="slide3" class="slides">Work</div>
-            <div id="slide4" class="slides">Contact</div>
+            <div id="home" class="slides">
+                <div class="slide1-contents contents">
+                    <div class="greetings">Hi, my name is<br></div>
+                    <div class="full-name"><span class="typed-text">Frederick James Bunal.</span></div>
+                    <div class="intro"><br>I am a passionate web developer with a strong foundation in HTML and CSS. <br>I'm on a journey to expand my skills in web development and create dynamic, user-friendly websites.</div>
+                </div>
+            </div>
+            <div id="about" class="slides">
+                <div class="about-me-contents contents">
+                    <div class="about-me">
+                        <div class="mono">
+                            <p>I'm a <b>web enthusiast</b> embarking on an exciting journey into <b>web development</b>. I'm dedicated to <b>expanding my skills</b>, crafting <b>outstanding digital experiences</b>, and <b>continuous growth</b> in this dynamic field.</p>
+                            <p>While I may lack <b>professional experience</b>, my <b>enthusiasm for web development</b> knows no bounds. I approach every project with <b>passion</b> and a <b>drive for innovation</b>.</p>
+                            <p>Beyond coding, I enjoy reading novels, playing video games, watching anime, and cherishing moments with loved ones.</p>
+                            <p>Let's connect and collaborate on <b>exciting web projects</b>!</p>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="skills-category">Front-End Web Development</div>
+                        <hr>
+                        <div class="skills-list">
+                            <div>HTML5</div>
+                            <div>CSS3</div>
+                            <div>Bootstrap</div>
+                            <div>Visual Studio Code</div>
+                            <div>Version Control/Git</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="work" class="slides">Work</div>
+            <div id="contact" class="slides">Contact</div>
         </div>
     </main>
     <footer id="footer">
