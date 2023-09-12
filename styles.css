@@ -42,6 +42,11 @@
     align-items: center;
 }
 
+#navbar-list-group a {
+    color: #000000;
+    text-decoration: none;
+}
+
 #navbar-list > ul {
     display: flex;
     gap: 2em;
@@ -66,19 +71,18 @@
 }
 
 #resume {
+    color: #000000;
     padding: 0.25em 1em;
     border: 1px solid transparent;
     border-radius: 10px;
     box-shadow: 4px 6px #000000;
 }
 
-#resume a {
-    text-decoration: none;
-    color: #000000;
-}
-
 #resume:hover {
     text-decoration: underline;
+    background-color: #000000;
+    color: #ffffff;
+    box-shadow: 4px 6px #888888;
 }
 
 #slides-container {
@@ -414,6 +418,10 @@
     align-items: center;
 }
 
+.contact-contents a {
+    text-decoration: none;
+}
+
 .get-in-touch {
     text-align: center;
     font-size: 1.5em;
@@ -433,15 +441,19 @@
 
 .say-hello {
     font-size: 0.75em;
+    color: #000000;
     border: 1px solid #000000;
     border-radius: 10px;
     box-shadow: 4px 6px #000000;
     padding: 0.25em 1em;
+    text-decoration: none;
+    font-family: monospace;
 }
 
-.say-hello a {
-    text-decoration: none;
-    color: #000000;
+.say-hello:hover {
+    color: #ffffff;
+    background-color: #000000;
+    box-shadow: 4px 6px #888888;
 }
 
 
