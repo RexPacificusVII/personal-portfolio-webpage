@@ -6,6 +6,9 @@
     /* border: 1px solid red; */
 }
 
+* a {
+    color: inherit;
+}
 
 /* TOP NAVBAR */
 
