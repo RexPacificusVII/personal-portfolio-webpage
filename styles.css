@@ -28,7 +28,7 @@
 }
 
 #navbar-logo svg {
-    position: absolute
+    position: absolute;
 }
 
 #navbar-logo h1 {
@@ -62,12 +62,23 @@
 
 .top-bottom-text {
     text-transform: uppercase;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 #resume {
-    padding: 0.50em 1.5em;
-    border: 1px solid #00ffda;
+    padding: 0.25em 1em;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow: 4px 6px #000000;
+}
+
+#resume a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#resume:hover {
+    text-decoration: underline;
 }
 
 #slides-container {
@@ -266,6 +277,46 @@
     padding: 0.25em 0.5em;
     font-family: monospace;
     font-size: 0.75em;
+}
+
+
+
+/* CONTACT */
+
+
+.contact-contents {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-in-touch {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0.25em;
+}
+
+.contact-text {
+    text-align: center;
+    font-size: 0.75em;
+    font-family: monospace;
+}
+
+.contact-text span {
+    font-size: 1em;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.say-hello {
+    font-size: 0.75em;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    box-shadow: 4px 6px #000000;
+    padding: 0.25em 1em;
 }
 
 /* FOOTER */
